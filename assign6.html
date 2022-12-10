@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assign6 | lessons 24-27</title>
+  </head>
+  <body>
+    <form action="test.py" method="post">
+        <div>
+            <input
+              type="hidden"
+              name="id"
+              required
+             value="1"
+            />
+          </div>
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          required
+          placeholder="write user name"
+        />
+      </div>
+      <hr />
+      <div>
+        <label for="Password">Password</label>
+        <input
+          type="password"
+          name="Password"
+          placeholder="write complex password"
+        />
+      </div>
+      <hr />
+      <div>
+        <label for="Mobile">Mobile</label>
+        <input
+          type="tel"
+          name="Mobile"
+          value="+20100 (234) 123"
+          placeholder="write mobile"
+        />
+      </div>
+      <hr />
+      <div>
+        <label for="Email">Email</label>
+        <input
+          type="email"
+          name="Email"
+          required
+          placeholder="write valid email"
+        />
+      </div>
+      <hr />
+      <div>
+        <label for="Subject">Subject</label>
+        <input type="text" name="Subject" placeholder="write your subject" />
+      </div>
+      <hr />
+      <input type="submit" value="Send Data" />
+      <input type="reset" value="Empty Form" />
+    </form>
+    </form>
+
+    <hr>
+    <div>
+        <input type="range" value="400" step="50" min="100" max="500">
+    </div>
+  </body>
+</html>

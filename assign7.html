@@ -1,0 +1,113 @@
+<!DOCTYPE Problem Solving>
+<Problem Solving lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assign7 | lessons 24-30</title>
+  </head>
+  <body>
+    <form action="#" method="GET">
+      <div>
+        <label for="Token">Token</label>
+        <input
+          type="hidden"
+          name="Token"
+          id="Token"
+          value="b92f1fc2fce391ad7af633723afd3055"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email" value="o@o.com" readonly />
+      </div>
+      <br />
+      <div>
+        <label for="Username">Username</label>
+        <input
+          type="text"
+          name="Username"
+          id="Username"
+          autofocus
+          required
+          minlength="5"
+          maxlength="20"
+        />
+      </div>
+    
+
+      <p>skills</p>
+      <div>
+        <input type="checkbox" name="programming-skills" id="Problem Solving" value="Problem Solving" checked/>
+        <label for="Problem Solving">Problem Solving</label>  
+      </div>
+      <div>
+        <input type="checkbox" name="programming-skills" id="Logical Thinking" value="Logical Thinking" />
+        <label for="Logical Thinking"> Logical Thinking</label>
+      </div>
+      <div>
+        <input type="checkbox" name="programming-skills" id="Advanced Search" value="Advanced Search"/>
+        <label for="Advanced Search">Advanced Search</label>
+      </div>
+      <div>
+        <input type="checkbox" name="programming-skills" id="Analysis" value="Analysis"/>
+        <label for="Analysis">Analysis</label>
+      </div>
+      <div>
+        <input type="checkbox" name="programming-skills" id="Planning" value="Planning"/>
+        <label for="Planning">Planning</label>
+      </div>
+    
+
+      <p>job</p>
+      <div>
+          <input type="radio" name="job" id="Front-End Developer" value="Front-End Developer" checked>
+          <label for="Front-End Developer">Front-End Developer</label>
+      </div>
+      <div>
+          <input type="radio" name="job" id="Back-End Developer" value="Back-End Developer">
+          <label for="Back-End Developer">Back-End Developer</label>
+      </div>
+      <div>
+          <input type="radio" name="job" id="Business Analyst" value="Business Analyst">
+          <label for="Business Analyst">Business Analyst</label>
+      </div>
+      <div>
+          <input type="radio" name="job" id="Project Manager" value="Project Manager">
+          <label for="Project Manager">Project Manager</label>
+      </div>
+      <div>
+          <input type="radio" name="job" id="Scrum Master" value="Scrum Master">
+          <label for="Scrum Master">Scrum Master</label>
+      </div>
+      <br>
+
+      <label for="feild">Choose Book :</label>
+      <select name="feild" id="feild">
+
+        <optgroup label="PHP">
+
+            <option value="5" selected>v5.0</option>
+            <option value="7">v7.0</option>
+            <option value="8">v8.0</option>
+        </optgroup>
+        <optgroup label="Python">
+
+            <option value="2">v2.0</option>
+            <option value="3">v3.0</option>
+            <option value="3.9">v3.9</option>
+        </optgroup>
+
+      </select>
+      <br>
+
+      <div>
+          <label for="brief">brief</label><br>
+          <textarea name="brief" id="brief" cols="30" rows="10" placeholder=" Write Here Why You Want To Learn Programming"></textarea>
+      </div>
+      <input type="reset" value="Empty" />
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</Problem Solving>
